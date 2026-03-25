@@ -26,7 +26,7 @@
      units="px"
      inkscape:zoom="2.1997092"
      inkscape:cx="-150.47444"
-     inkscape:cy="306.63144"
+     inkscape:cy="197.52611"
      inkscape:window-width="3440"
      inkscape:window-height="1279"
      inkscape:window-x="0"
@@ -38,15 +38,15 @@
      id="defs2">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient6824">
+       id="linearGradient6467">
       <stop
-         style="stop-color:#343854;stop-opacity:1"
+         style="stop-color:#393e57;stop-opacity:1"
          offset="0"
-         id="stop6820" />
+         id="stop6463" />
       <stop
-         style="stop-color:#393e57;stop-opacity:0"
+         style="stop-color:#454962;stop-opacity:1"
          offset="1"
-         id="stop6822" />
+         id="stop6465" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -94,7 +94,7 @@
        x2="279.79895"
        y2="-0.46243507"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.26083171,0,0,0.4066318,0.9000409,0.30073898)" />
+       gradientTransform="matrix(0.19744352,0,0,0.35125379,-0.2014325,-0.21771845)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4934"
@@ -106,14 +106,13 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient6824"
-       id="linearGradient6826"
-       x1="18.959335"
-       y1="234.76575"
-       x2="262.69379"
-       y2="234.76575"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.48893789,0,0,1.1050598,-2.560536,-186.22767)" />
+       xlink:href="#linearGradient6467"
+       id="linearGradient6469"
+       x1="36.546997"
+       y1="-0.75145841"
+       x2="36.333405"
+       y2="100.212"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -141,23 +140,14 @@
          ry="10.813785"
          inkscape:label="elem_outline" />
     </g>
-    <g
-       id="g1446"
-       transform="matrix(0.20078957,0,0,0.22912809,-0.20550677,-0.15582103)">
-      <rect
-         style="fill:url(#linearGradient4559);fill-opacity:1;stroke-width:1.45412;stroke-linecap:square;stroke-linejoin:bevel;paint-order:fill markers stroke"
-         id="rect846"
-         width="131.77145"
-         height="115.47398"
-         x="1.21764"
-         y="0.50683367"
-         ry="4.3972287"
-         inkscape:label="BG" />
-      <path
-         id="rect6738"
-         style="fill:url(#linearGradient6826);stroke-width:0.367527;stroke-linecap:square;stroke-linejoin:bevel"
-         d="M 13.636592,28.438378 H 118.95322 c 3.76994,0 6.80495,3.035011 6.80495,6.804956 v 64.805876 c 0,3.76995 -3.03501,6.80496 -6.80495,6.80496 H 13.636592 c -3.7699452,0 -6.8049556,-3.03501 -6.8049556,-6.80496 V 35.243334 c 0,-3.769945 3.0350104,-6.804956 6.8049556,-6.804956 z"
-         sodipodi:nodetypes="sssssssss" />
-    </g>
+    <rect
+       style="fill:url(#linearGradient4559);fill-opacity:1;stroke-width:0.6;stroke-linecap:square;stroke-linejoin:bevel;paint-order:fill markers stroke;stroke:url(#linearGradient6469);stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect846"
+       width="99.747917"
+       height="99.747917"
+       x="0.038982645"
+       y="-0.039691195"
+       ry="2.5996542"
+       inkscape:label="BG" />
   </g>
 </svg>

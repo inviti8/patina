@@ -2,6 +2,7 @@
 // need dioxus
 use dioxus::prelude::*;
 use dioxus::desktop::tao;
+use dioxus::desktop::use_window;
 
 use components::PatinaBG;
 
@@ -30,10 +31,61 @@ fn main() {
 /// Components should be annotated with `#[component]` to support props, better error messages, and autocomplete
 #[component]
 fn App() -> Element {
-    // The `rsx!` macro lets us define HTML inside of rust. It expands to an Element with all of our HTML inside.
-    rsx! {
-        
-        PatinaBG {}
+    let window = use_window();
 
+    rsx! {
+        // Custom titlebar
+        div {
+            class: "titlebar",
+            div {
+                class: "drag-region left title",
+                onmousedown: {
+                    let window = window.clone();
+                    move |_| { 
+                        window.drag(); 
+                    }
+                },
+                span { "Patina UI Framework" }
+            }
+            div {
+                class: "right",
+                button {
+                    class: "titlebar-button",
+                    id: "minimize",
+                    onclick: {
+                        let window = window.clone();
+                        move |_| {
+                            window.set_minimized(true);
+                        }
+                    },
+                    "─"
+                }
+                button {
+                    class: "titlebar-button",
+                    id: "maximize",
+                    onclick: {
+                        let window = window.clone();
+                        move |_| {
+                            window.toggle_maximized();
+                        }
+                    },
+                    "□"
+                }
+                button {
+                    class: "titlebar-button",
+                    id: "close",
+                    onclick: {
+                        let window = window.clone();
+                        move |_| {
+                            window.close();
+                        }
+                    },
+                    "✕"
+                }
+            }
+        }
+        
+        // Main content with SVG background
+        PatinaBG {}
     }
 }

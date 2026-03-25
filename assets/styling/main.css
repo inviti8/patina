@@ -41,12 +41,67 @@ body {
     max-width: 1200px;
 }
 
+/* Custom Titlebar Styles */
+.titlebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    background: rgba(40, 44, 52, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    user-select: none;
+    -webkit-app-region: no-drag;
+}
+
+.titlebar .drag-region {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    -webkit-app-region: drag;
+}
+
+.titlebar .title {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.titlebar .right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.titlebar-button {
+    width: 46px;
+    height: 100%;
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-app-region: no-drag;
+}
+
+.titlebar-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.titlebar-button#close:hover {
+    background: #e81123;
+    color: white;
+}
+
 .patina-bg {
     position: fixed;
-    top: 0;
+    top: 32px; /* Account for titlebar */
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 32px); /* Account for titlebar */
     z-index: -1;
     background-size: 100% 100%;
 }
@@ -56,7 +111,7 @@ body {
     width: 100% !important;
     height: 100% !important;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: calc(100vh - 32px); /* Account for titlebar */
     display: block;
     object-fit: fill;
 }
