@@ -4,7 +4,7 @@ use dioxus::prelude::*;
 use dioxus::desktop::tao;
 use dioxus::desktop::use_window;
 
-use components::PatinaBG;
+use components::{PatinaBG, PatinaTitlebar};
 
 /// Define a components module that contains all shared components for our app.
 mod components;
@@ -31,61 +31,35 @@ fn main() {
 /// Components should be annotated with `#[component]` to support props, better error messages, and autocomplete
 #[component]
 fn App() -> Element {
-    let window = use_window();
+    // Prevent scrolling with JavaScript
+    let _eval = use_resource(move || async move {
+        let mut eval = document::eval(r#"
+            // Prevent all scrolling
+            document.body.style.overflow = 'hidden';
+            document.documentElement.style.overflow = 'hidden';
+            
+            // Prevent wheel events
+            document.addEventListener('wheel', function(e) {
+                e.preventDefault();
+            }, { passive: false });
+            
+            // Prevent touchmove events  
+            document.addEventListener('touchmove', function(e) {
+                e.preventDefault();
+            }, { passive: false });
+            
+            // Prevent keydown scroll events
+            document.addEventListener('keydown', function(e) {
+                if ([32, 33, 34, 35, 36, 37, 38, 39, 40].includes(e.keyCode)) {
+                    e.preventDefault();
+                }
+            });
+        "#);
+        eval.recv::<()>().await
+    });
 
     rsx! {
-        // Custom titlebar
-        div {
-            class: "titlebar",
-            div {
-                class: "drag-region left title",
-                onmousedown: {
-                    let window = window.clone();
-                    move |_| { 
-                        window.drag(); 
-                    }
-                },
-                span { "Patina UI Framework" }
-            }
-            div {
-                class: "right",
-                button {
-                    class: "titlebar-button",
-                    id: "minimize",
-                    onclick: {
-                        let window = window.clone();
-                        move |_| {
-                            window.set_minimized(true);
-                        }
-                    },
-                    "─"
-                }
-                button {
-                    class: "titlebar-button",
-                    id: "maximize",
-                    onclick: {
-                        let window = window.clone();
-                        move |_| {
-                            window.toggle_maximized();
-                        }
-                    },
-                    "□"
-                }
-                button {
-                    class: "titlebar-button",
-                    id: "close",
-                    onclick: {
-                        let window = window.clone();
-                        move |_| {
-                            window.close();
-                        }
-                    },
-                    "✕"
-                }
-            }
-        }
-        
-        // Main content with SVG background
+        PatinaTitlebar {}
         PatinaBG {}
     }
 }

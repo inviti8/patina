@@ -24,9 +24,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      units="px"
-     inkscape:zoom="2.1997092"
-     inkscape:cx="-150.47444"
-     inkscape:cy="197.52611"
+     inkscape:zoom="4.3994184"
+     inkscape:cx="120.01586"
+     inkscape:cy="88.53443"
      inkscape:window-width="3440"
      inkscape:window-height="1279"
      inkscape:window-x="0"
@@ -94,7 +94,7 @@
        x2="279.79895"
        y2="-0.46243507"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.19125503,0,0,0.12766839,1.5875662,1.510098)" />
+       gradientTransform="matrix(0.19572426,0,0,0.13160477,0.22761909,0.38944382)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4934"
@@ -113,7 +113,7 @@
        x2="36.333405"
        y2="100.212"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.96865701,0,0,0.36346482,1.7826852,1.589231)" />
+       gradientTransform="matrix(0.99129251,0,0,0.37467146,0.42729761,0.47101669)" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -142,13 +142,13 @@
          inkscape:label="elem_outline" />
     </g>
     <rect
-       style="fill:url(#linearGradient4559);fill-opacity:1;stroke:url(#linearGradient6469);stroke-width:0.356015;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       style="fill:url(#linearGradient4559);fill-opacity:1;stroke:url(#linearGradient6469);stroke-width:0.36566;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect846"
-       width="96.621513"
-       height="36.254856"
-       x="1.820446"
-       y="1.5748047"
-       ry="0.94488281"
+       width="98.879349"
+       height="37.372696"
+       x="0.46594074"
+       y="0.45614555"
+       ry="0.97401619"
        inkscape:label="BG" />
   </g>
 </svg>

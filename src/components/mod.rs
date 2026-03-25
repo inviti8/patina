@@ -4,4 +4,6 @@
 
 mod hero;
 mod patina_bg;
+mod patina_titlebar;
 pub use patina_bg::PatinaBG;
+pub use patina_titlebar::PatinaTitlebar;

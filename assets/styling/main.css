@@ -57,6 +57,7 @@ body {
     user-select: none;
     -webkit-app-region: no-drag;
     z-index: 1000; /* Ensure it stays on top */
+    transform: translateZ(0);
 }
 
 .titlebar .drag-region {
@@ -90,6 +91,7 @@ body {
     cursor: pointer;
     transition: all 0.2s ease;
     -webkit-app-region: no-drag;
+    transform: translateZ(0);
 }
 
 .titlebar-button:hover {
