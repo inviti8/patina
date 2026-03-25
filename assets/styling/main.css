@@ -2,7 +2,8 @@ body {
     background-color: #0f1116;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 32px 0 0 0; /* Account for fixed titlebar */
 }
 
 #hero {
@@ -43,6 +44,10 @@ body {
 
 /* Custom Titlebar Styles */
 .titlebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +56,7 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     user-select: none;
     -webkit-app-region: no-drag;
+    z-index: 1000; /* Ensure it stays on top */
 }
 
 .titlebar .drag-region {
