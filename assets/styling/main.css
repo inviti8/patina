@@ -48,7 +48,6 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    padding: 0 12px;
     -webkit-app-region: drag;
 }
 
@@ -71,4 +70,37 @@ body {
     height: 100vh; /* Full viewport height - no titlebar spacing */
     z-index: -1;
     background-size: 100% 100%;
+}
+
+/* Titlebar icon button styling */
+.patina-titlebar-icon-btn {
+    width: 46px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-app-region: no-drag;
+    transform: translateZ(0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* .patina-titlebar-icon-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+} */
+
+.patina-titlebar-icon-btn:hover svg {
+    stroke: rgba(255, 255, 255, 0.9);
+}
+
+/* .patina-titlebar-icon-btn#close:hover {
+    background: #e81123;
+} */
+
+.patina-titlebar-icon-btn#close:hover svg {
+    stroke: white;
 }

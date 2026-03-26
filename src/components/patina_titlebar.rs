@@ -19,7 +19,7 @@ pub fn PatinaTitlebar() -> Element {
             div {
                 class: "right",
                 button {
-                    class: "patina-titlebar-button",
+                    class: "patina-titlebar-icon-btn",
                     id: "minimize",
                     onclick: {
                         let window = window.clone();
@@ -30,7 +30,7 @@ pub fn PatinaTitlebar() -> Element {
                     dangerous_inner_html: MINIMIZE_ICON
                 }
                 button {
-                    class: "patina-titlebar-button",
+                    class: "patina-titlebar-icon-btn",
                     id: "maximize",
                     onclick: {
                         let window = window.clone();
@@ -41,7 +41,7 @@ pub fn PatinaTitlebar() -> Element {
                     dangerous_inner_html: MAXIMIZE_ICON
                 }
                 button {
-                    class: "patina-titlebar-button",
+                    class: "patina-titlebar-icon-btn",
                     id: "close",
                     onclick: {
                         let window = window.clone();

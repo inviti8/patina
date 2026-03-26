@@ -21,7 +21,7 @@
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
+     inkscape:document-units="px"
      showgrid="false"
      units="px"
      inkscape:zoom="4.3994184"
@@ -32,7 +32,7 @@
      inkscape:window-x="0"
      inkscape:window-y="40"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"/>
   <defs
      id="defs2">
     <linearGradient
@@ -93,7 +93,7 @@
        x2="279.79895"
        y2="-0.46243507"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.19571031,0,0,0.13849091,0.2311587,-0.10925214)" />
+       gradientTransform="matrix(0.19548897,0,0,0.13657744,0.3236963,0.43511332)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4934"
@@ -112,7 +112,7 @@
        x2="36.333405"
        y2="100.212"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99122188,0,0,0.39427594,0.430823,-0.02341088)" />
+       gradientTransform="matrix(0.99010084,0,0,0.3888284,0.52313478,0.51976855)" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -141,13 +141,13 @@
          inkscape:label="elem_outline" />
     </g>
     <rect
-       style="fill:url(#linearGradient4559);fill-opacity:1;stroke:url(#linearGradient6469);stroke-width:0.274748;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       style="fill:url(#linearGradient4559);fill-opacity:1;stroke:url(#linearGradient6469);stroke-width:0.272689;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect846"
-       width="98.872307"
-       height="39.328201"
-       x="0.46946338"
-       y="-0.03906038"
-       ry="1.024981"
+       width="98.760475"
+       height="38.784821"
+       x="0.5617314"
+       y="0.50433528"
+       ry="1.0108193"
        inkscape:label="BG" />
   </g>
 </svg>
