@@ -59,6 +59,9 @@ fn App() -> Element {
     });
 
     rsx! {
+        // Include CSS styles
+        link { rel: "stylesheet", href: MAIN_CSS }
+        
         PatinaTitlebar {}
         PatinaBG {}
     }

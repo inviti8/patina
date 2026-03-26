@@ -1,5 +1,4 @@
 body {
-    background-color: #0f1116;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -42,19 +41,7 @@ body {
 }
 
 /* Custom Titlebar Styles */
-.patina-titlebar {
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(40, 44, 52, 0.9);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    user-select: none;
-    -webkit-app-region: no-drag;
-    z-index: 1000; /* Ensure it stays on top */
-    transform: translateZ(0);
-}
+
 
 .patina-titlebar .drag-region {
     flex: 1;
@@ -78,79 +65,10 @@ body {
     height: 100%;
 }
 
-.patina-titlebar-button {
-    width: 46px;
-    height: 100%;
-    border: none;
-    background: transparent;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    -webkit-app-region: no-drag;
-    transform: translateZ(0);
-}
-
-.patina-titlebar-button:hover {
-    background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 1);
-}
-
-.patina-titlebar-button#close:hover {
-    background: #e81123;
-    color: white;
-}
-
 .patina-bg {
     left: 0;
     width: 100vw;
     height: 100vh; /* Full viewport height - no titlebar spacing */
     z-index: -1;
     background-size: 100% 100%;
-}
-
-/* Dynamic SVG Rendering Class */
-.svg-fill-maintain-aspect {
-    width: 100% !important;
-    height: 100% !important;
-    min-width: 100vw;
-    min-height: 100vh; /* Full viewport height - no titlebar spacing */
-    display: block;
-    object-fit: fill;
-}
-
-/* Titlebar SVG Class - smaller, contained */
-.svg-titlebar {
-    width: 100% !important;
-    height: 32px !important; /* Titlebar height */
-    display: block;
-    object-fit: fill;
-}
-
-/* Override SVG dimensions */
-.svg-fill-maintain-aspect[width][height] {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-/* Force SVG scaling with modern CSS */
-.patina-bg svg {
-    width: 100% !important;
-    height: 100% !important;
-    min-width: 100vw;
-
-    display: block;
-    object-fit: fill;
-}
-
-/* Override SVG dimensions */
-.patina-bg svg[width][height] {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-@media (orientation: landscape) {
-    .patina-bg svg {
-        object-fit: contain; /* No cropping */
-    }
 }
