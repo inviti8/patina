@@ -9,17 +9,6 @@ pub struct PatinaViewProps {
 
 #[component]
 pub fn PatinaView(props: PatinaViewProps) -> Element {
-    let mut containers = Vec::new();
-    
-    // Generate grid of containers
-    for row in 0..props.rows {
-        for col in 0..props.columns {
-            containers.push(rsx! {
-                PatinaContainer { key: "{row}-{col}" }
-            });
-        }
-    }
-    
     rsx! {
         div {
             class: "patina-view",

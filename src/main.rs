@@ -65,8 +65,7 @@ fn App() -> Element {
         link { rel: "stylesheet", href: MAIN_CSS }
         
         PatinaTitlebar {}
-        
         // Configurable grid view
-        PatinaView { rows: 3, columns: 3 }
+        PatinaView { rows: 1, columns: 1 }
     }
 }

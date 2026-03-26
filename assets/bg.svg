@@ -1,153 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   viewBox="0 0 99.747915 55.000001"
-   preserveAspectRatio="xMidYMid slice"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="bg.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="px"
-     showgrid="false"
-     units="px"
-     inkscape:zoom="8.7988368"
-     inkscape:cx="112.74218"
-     inkscape:cy="33.924939"
-     inkscape:window-width="3440"
-     inkscape:window-height="1279"
-     inkscape:window-x="0"
-     inkscape:window-y="40"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient6467">
-      <stop
-         style="stop-color:#393e57;stop-opacity:1"
-         offset="0"
-         id="stop6463" />
-      <stop
-         style="stop-color:#454962;stop-opacity:1"
-         offset="1"
-         id="stop6465" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4934">
-      <stop
-         style="stop-color:#454962;stop-opacity:1;"
-         offset="0"
-         id="stop4930" />
-      <stop
-         style="stop-color:#4a4d64;stop-opacity:1"
-         offset="1"
-         id="stop4932" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4555">
-      <stop
-         style="stop-color:#393e57;stop-opacity:1"
-         offset="0"
-         id="stop4551" />
-      <stop
-         style="stop-color:#454962;stop-opacity:1"
-         offset="1"
-         id="stop4553" />
-    </linearGradient>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter3869"
-       x="-0.058170675"
-       y="-0.061822701"
-       width="1.1163413"
-       height="1.1236454">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.79218137"
-         id="feGaussianBlur3871" />
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4555"
-       id="linearGradient4559"
-       x1="279.29202"
-       y1="283.3009"
-       x2="279.79895"
-       y2="-0.46243507"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.19539111,0,0,0.19237326,0.34853443,0.02563044)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4934"
-       id="linearGradient5368"
-       x1="52.353291"
-       y1="51.352196"
-       x2="53.16777"
-       y2="33.450672"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6467"
-       id="linearGradient6469"
-       x1="36.546997"
-       y1="-0.75145841"
-       x2="36.333405"
-       y2="100.212"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9896052,0,0,0.54767602,0.54787307,0.14486977)" />
-  </defs>
-  <g
-     inkscape:label="Layer 1"
-     id="layer1">
-    <g
-       id="g6330"
-       inkscape:label="base_elem"
-       style="display:none">
-      <rect
-         style="fill:url(#linearGradient5368);fill-opacity:1;stroke:#3b3e54;stroke-width:2.065;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter3869)"
-         id="rect1979"
-         width="50.433235"
-         height="47.454014"
-         x="27.337275"
-         y="34.475262"
-         ry="10.813785"
-         inkscape:label="elem_base" />
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#4f526a;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-         id="rect1979-3"
-         width="50.433235"
-         height="47.454014"
-         x="27.33728"
-         y="34.475266"
-         ry="10.813785"
-         inkscape:label="elem_outline" />
+<svg inkscape:export-xdpi="96" inkscape:export-ydpi="96" style="fill:none;stroke:none;" version="1.1" viewBox="0 0 100 55" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Composition</title>
+    <defs>
+        <linearGradient id="linearGradient6467">
+            <stop offset="0" stop-color="#393e57" stop-opacity="1"/>
+            <stop offset="1" stop-color="#454962" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="linearGradient4934">
+            <stop offset="0" stop-color="#454962" stop-opacity="1"/>
+            <stop offset="1" stop-color="#4a4d64" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="linearGradient4555">
+            <stop offset="0" stop-color="#393e57" stop-opacity="1"/>
+            <stop offset="1" stop-color="#3e435c" stop-opacity="1"/>
+            <stop offset="1" stop-color="#454962" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" id="linearGradient4559" x1="54.9197" x2="55.0188" xlink:href="#linearGradient4555" y1="54.5251" y2="-0.0633297"/>
+        <linearGradient gradientUnits="userSpaceOnUse" id="linearGradient5368" x1="52.3533" x2="53.1678" xlink:href="#linearGradient4934" y1="51.3522" y2="33.4507"/>
+        <linearGradient gradientUnits="userSpaceOnUse" id="linearGradient6469" x1="36.715" x2="36.5036" xlink:href="#linearGradient6467" y1="-0.266686" y2="55.0286"/>
+    </defs>
+    <sodipodi:namedview bordercolor="#666666" borderlayer="true" inkscape:document-units="px" inkscape:pagecheckerboard="true" pagecolor="#ffffff"/>
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+                <dc:title>Composition</dc:title>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g id="Composition_4ac4aaa1451a45daa55f487a5fa54e55" inkscape:groupmode="layer" inkscape:label="Composition">
+        <g id="Layer_442ce5651e6f44899a8f7284b95c5d4e" inkscape:groupmode="layer" inkscape:label="Layer" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <g id="Layer_cd113d4f20e1441293a7f0f6bc045b68" inkscape:groupmode="layer" inkscape:label="bg.svg" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                <g id="Group_6b621e5a39214eeb894ec309a1cd4e72" inkscape:label="Layer 1" opacity="0.5" transform="matrix(1, 0, 0, 1, 0, 0)">
+                    <animate attributeName="opacity" begin="0.000000" calcMode="spline" dur="3.000000" keySplines="0 0 1 1; 0.000000 0.000000 1.000000 1.000000; 0.000000 0.000000 1.000000 1.000000" keyTimes="0; 0.111111; 0.194444; 1" repeatCount="0" values="0.5; 0.5; 1; 1"/>
+                    <g display="none" id="Group_48237dc2db104c60968c44d452d75ffe" inkscape:label="base_elem" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                        <g display="none" fill="url(#linearGradient5368)" id="Fill_01bbd4f54c2d48f18cfc0270fc1593e0" inkscape:label="elem_base" opacity="1" stroke="#3b3e54" stroke-opacity="1" stroke-width="2.065000057220459" transform="matrix(1, 0, 0, 1, 0, 0)">
+                            <rect height="47.454" ry="10.8137845993042" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="50.4332" x="27.3373" y="34.4753"/>
+                            <rect height="47.454" ry="10.8137845993042" style="stroke:none;" width="50.4332" x="27.3373" y="34.4753"/>
+                        </g>
+                        <g display="none" id="Stroke_3e494cad73e34be5a0d8ac65da31ff44" inkscape:label="elem_outline" opacity="1" stroke="#4f526a" stroke-opacity="1" stroke-width="0.5" transform="matrix(1, 0, 0, 1, 0, 0)">
+                            <rect height="47.454" ry="10.8137845993042" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="50.4332" x="27.3373" y="34.4753"/>
+                        </g>
+                    </g>
+                    <g transform="translate(50 0)">
+                        <g transform="rotate(0)">
+                            <g transform="scale(1 0)">
+                                <g transform="translate(-50 0)">
+                                    <g fill="url(#linearGradient4559)" id="Stroke_99f713b7813a47aba3850d31cb2d7887" inkscape:label="BG" opacity="1" stroke="url(#linearGradient6469)" stroke-width="0.3235499858856201">
+                                        <rect height="54.6295" ry="1.4237680435180664" style="stroke:none;" width="98.711" x="0.58645" y="0.123132"/>
+                                        <rect height="54.6295" ry="1.4237680435180664" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="98.711" x="0.58645" y="0.123132"/>
+                                    </g>
+                                </g>
+                                <animateTransform attributeName="transform" begin="0.000000" calcMode="spline" dur="3.000000" keySplines="0 0 1 1; 0.166667 0.333333 0.666667 1.000000; 0.000000 0.000000 1.000000 1.000000" keyTimes="0; 0.033333; 0.105556; 1" repeatCount="0" type="scale" values="1 0; 1 0; 1 1; 1 1"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
     </g>
-    <rect
-       style="fill:url(#linearGradient4559);fill-opacity:1;stroke:url(#linearGradient6469);stroke-width:0.32355;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect846"
-       width="98.711037"
-       height="54.629539"
-       x="0.5864504"
-       y="0.12313158"
-       ry="1.423768"
-       inkscape:label="BG" />
-  </g>
 </svg>
