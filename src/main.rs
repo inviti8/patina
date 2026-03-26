@@ -20,8 +20,8 @@ fn main() {
     // you have enabled
     let window = tao::window::WindowBuilder::new()
         .with_resizable(true)
-        .with_decorations(false)  // Frameless - no title bar, borders
-        .with_transparent(true);  // Optional: transparent background
+        .with_decorations(true)  // Frameless - no title bar, borders
+        .with_transparent(false);  // Optional: transparent background
     dioxus::LaunchBuilder::new().with_cfg(dioxus::desktop::Config::new().with_window(window)).launch(App);
 }
 

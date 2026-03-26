@@ -8,7 +8,10 @@ pub fn PatinaBG() -> Element {
     rsx! {
         div {
             class: "patina-bg",
-            dangerous_inner_html: svg_content
+            div {
+                class: "svg-fill-maintain-aspect",
+                dangerous_inner_html: svg_content
+            }
         }
     }
 }

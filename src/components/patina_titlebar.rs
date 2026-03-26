@@ -4,21 +4,13 @@ use dioxus::desktop::use_window;
 #[component]
 pub fn PatinaTitlebar() -> Element {
     let window = use_window();
+    let svg_content = include_str!("../../assets/titlebar.svg");
 
     rsx! {
         // Custom titlebar
         div {
             class: "titlebar",
-            div {
-                class: "drag-region left title",
-                onmousedown: {
-                    let window = window.clone();
-                    move |_| { 
-                        window.drag(); 
-                    }
-                },
-                span { "Patina UI Framework" }
-            }
+            // Interactive Elements Layer
             div {
                 class: "right",
                 button {
@@ -54,6 +46,17 @@ pub fn PatinaTitlebar() -> Element {
                     },
                     "✕"
                 }
+            }
+            div {
+                class: "drag-region left title svg-titlebar",
+                dangerous_inner_html: svg_content,
+                onmousedown: {
+                    let window = window.clone();
+                    move |_| { 
+                        window.drag(); 
+                    }
+                },
+                span { "Patina UI Framework" }
             }
         }
     }
