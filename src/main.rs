@@ -1,7 +1,8 @@
 // The dioxus prelude contains a ton of common items used in dioxus apps. It's a good idea to import wherever you
 // need dioxus
 use dioxus::prelude::*;
-use dioxus::desktop::tao;
+use dioxus::desktop::tao::dpi::PhysicalSize;
+use dioxus::desktop::tao::window::WindowBuilder;
 use dioxus::desktop::use_window;
 
 use components::{PatinaBG, PatinaTitlebar, PatinaView};
@@ -18,7 +19,9 @@ const MAIN_CSS: Asset = asset!("/assets/styling/main.css");
 fn main() {
     // The `launch` function is the main entry point for a dioxus app. It takes a component and renders it with the platform feature
     // you have enabled
-    let window = tao::window::WindowBuilder::new()
+    let window = WindowBuilder::new()
+        .with_inner_size(PhysicalSize::new(1200, 800))  // Initial size
+        .with_min_inner_size(PhysicalSize::new(800, 600))  // Minimum size
         .with_resizable(true)
         .with_decorations(false)  // Frameless - no title bar, borders
         .with_transparent(true);  // Optional: transparent background

@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   viewBox="0 0 99.747915 39.687501"
+   viewBox="0 0 99.747915 55.000001"
    preserveAspectRatio="xMidYMid slice"
    version="1.1"
    id="svg5"
@@ -25,7 +25,7 @@
      showgrid="false"
      units="px"
      inkscape:zoom="8.7988368"
-     inkscape:cx="120.01586"
+     inkscape:cx="112.74218"
      inkscape:cy="33.924939"
      inkscape:window-width="3440"
      inkscape:window-height="1279"
@@ -93,7 +93,7 @@
        x2="279.79895"
        y2="-0.46243507"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.19548897,0,0,0.13800686,0.3236963,0.02846616)" />
+       gradientTransform="matrix(0.19539111,0,0,0.19237326,0.34853443,0.02563044)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4934"
@@ -112,7 +112,7 @@
        x2="36.333405"
        y2="100.212"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99010084,0,0,0.39289788,0.52313478,0.11400739)" />
+       gradientTransform="matrix(0.9896052,0,0,0.54767602,0.54787307,0.14486977)" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -141,13 +141,13 @@
          inkscape:label="elem_outline" />
     </g>
     <rect
-       style="fill:url(#linearGradient4559);fill-opacity:1;stroke:url(#linearGradient6469);stroke-width:0.274112;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       style="fill:url(#linearGradient4559);fill-opacity:1;stroke:url(#linearGradient6469);stroke-width:0.32355;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect846"
-       width="98.760475"
-       height="39.190742"
-       x="0.5617314"
-       y="0.098412611"
-       ry="1.0213985"
+       width="98.711037"
+       height="54.629539"
+       x="0.5864504"
+       y="0.12313158"
+       ry="1.423768"
        inkscape:label="BG" />
   </g>
 </svg>
