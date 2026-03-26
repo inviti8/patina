@@ -3,7 +3,6 @@ body {
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    padding: 32px 0 0 0; /* Account for fixed titlebar */
 }
 
 #hero {
@@ -43,15 +42,12 @@ body {
 }
 
 /* Custom Titlebar Styles */
-.titlebar {
-    position: fixed;
-    top: 0;
+.patina-titlebar {
     left: 0;
     right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 32px;
     background: rgba(40, 44, 52, 0.9);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     user-select: none;
@@ -60,7 +56,7 @@ body {
     transform: translateZ(0);
 }
 
-.titlebar .drag-region {
+.patina-titlebar .drag-region {
     flex: 1;
     height: 100%;
     display: flex;
@@ -69,20 +65,20 @@ body {
     -webkit-app-region: drag;
 }
 
-.titlebar .title {
+.patina-titlebar .title {
     font-size: 14px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.9);
 }
 
-.titlebar .right {
+.patina-titlebar .right {
     display: flex;
     align-items: center;
     justify-content: flex-end;  /* Align buttons to the right */
     height: 100%;
 }
 
-.titlebar-button {
+.patina-titlebar-button {
     width: 46px;
     height: 100%;
     border: none;
@@ -95,22 +91,20 @@ body {
     transform: translateZ(0);
 }
 
-.titlebar-button:hover {
+.patina-titlebar-button:hover {
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 1);
 }
 
-.titlebar-button#close:hover {
+.patina-titlebar-button#close:hover {
     background: #e81123;
     color: white;
 }
 
 .patina-bg {
-    position: fixed;
-    top: 32px; /* Account for titlebar */
     left: 0;
     width: 100vw;
-    height: calc(100vh - 32px); /* Account for titlebar */
+    height: 100vh; /* Full viewport height - no titlebar spacing */
     z-index: -1;
     background-size: 100% 100%;
 }
@@ -120,7 +114,7 @@ body {
     width: 100% !important;
     height: 100% !important;
     min-width: 100vw;
-    min-height: calc(100vh - 32px); /* Account for titlebar */
+    min-height: 100vh; /* Full viewport height - no titlebar spacing */
     display: block;
     object-fit: fill;
 }

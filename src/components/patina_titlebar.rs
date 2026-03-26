@@ -1,6 +1,11 @@
 use dioxus::prelude::*;
 use dioxus::desktop::use_window;
 
+// Import SVG icons
+static MINIMIZE_ICON: &str = include_str!("../../assets/icon_minimize.svg");
+static MAXIMIZE_ICON: &str = include_str!("../../assets/icon_maximize.svg");
+static CLOSE_ICON: &str = include_str!("../../assets/icon_close.svg");
+
 #[component]
 pub fn PatinaTitlebar() -> Element {
     let window = use_window();
@@ -9,12 +14,12 @@ pub fn PatinaTitlebar() -> Element {
     rsx! {
         // Custom titlebar
         div {
-            class: "titlebar",
+            class: "patina-titlebar",
             // Interactive Elements Layer
             div {
                 class: "right",
                 button {
-                    class: "titlebar-button",
+                    class: "patina-titlebar-button",
                     id: "minimize",
                     onclick: {
                         let window = window.clone();
@@ -22,10 +27,10 @@ pub fn PatinaTitlebar() -> Element {
                             window.set_minimized(true);
                         }
                     },
-                    "─"
+                    dangerous_inner_html: MINIMIZE_ICON
                 }
                 button {
-                    class: "titlebar-button",
+                    class: "patina-titlebar-button",
                     id: "maximize",
                     onclick: {
                         let window = window.clone();
@@ -33,10 +38,10 @@ pub fn PatinaTitlebar() -> Element {
                             window.toggle_maximized();
                         }
                     },
-                    "□"
+                    dangerous_inner_html: MAXIMIZE_ICON
                 }
                 button {
-                    class: "titlebar-button",
+                    class: "patina-titlebar-button",
                     id: "close",
                     onclick: {
                         let window = window.clone();
@@ -44,7 +49,7 @@ pub fn PatinaTitlebar() -> Element {
                             window.close();
                         }
                     },
-                    "✕"
+                    dangerous_inner_html: CLOSE_ICON
                 }
             }
             div {
