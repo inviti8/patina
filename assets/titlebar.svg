@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   viewBox="0 0 100 11.90625"
+   viewBox="0 0 99.747914 5.2916667"
    preserveAspectRatio="xMidYMid slice"
    version="1.1"
    id="svg8483"
@@ -24,9 +24,9 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="3.1108586"
-     inkscape:cx="197.37316"
-     inkscape:cy="47.414563"
+     inkscape:zoom="12.443434"
+     inkscape:cx="9.1614579"
+     inkscape:cy="15.309278"
      inkscape:window-width="3440"
      inkscape:window-height="1279"
      inkscape:window-x="0"
@@ -82,14 +82,15 @@
        height="10.112559"
        x="0.35413128"
        y="0.77830535"
-       ry="0.992351" />
+       ry="0.992351"
+       transform="matrix(0.99970267,0,0,0.5122102,-0.06295496,-0.23028906)" />
     <rect
-       style="mix-blend-mode:normal;fill:none;fill-opacity:1;stroke:#4f526a;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       style="mix-blend-mode:normal;fill:none;fill-opacity:1;stroke:#4f526a;stroke-width:0.140487;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect9449"
-       width="99.154007"
-       height="10.112559"
-       x="0.35413128"
-       y="0.77830535"
-       ry="0.992351" />
+       width="99.004456"
+       height="4.9972482"
+       x="0.35110462"
+       y="0.22852604"
+       ry="0.4903827" />
   </g>
 </svg>

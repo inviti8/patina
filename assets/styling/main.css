@@ -36,17 +36,12 @@ body {
     cursor: pointer;
 }
 
-#header {
-    max-width: 1200px;
-}
-
 /* Custom Titlebar Styles */
 
 
 .patina-titlebar .drag-region {
-    flex: 1;
-    height: 100%;
-    display: flex;
+    left: 0;
+    width: 100vw;
     align-items: center;
     -webkit-app-region: drag;
 }
@@ -66,6 +61,7 @@ body {
 
 .patina-bg {
     left: 0;
+    margin-top: 0;
     width: 100vw;
     height: 100vh; /* Full viewport height - no titlebar spacing */
     z-index: -1;
