@@ -53,7 +53,7 @@ pub fn PatinaTitlebar() -> Element {
                 }
             }
             div {
-                class: "drag-region",
+                class: "drag-region patina-svg-fill-maintina-aspect",
                 dangerous_inner_html: svg_content,
                 onmousedown: {
                     let window = window.clone();

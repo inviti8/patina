@@ -3,7 +3,12 @@
 //! component  to be used in our app.
 
 mod hero;
-mod patina_bg;
-mod patina_titlebar;
+pub mod patina_bg;
+pub mod patina_titlebar;
+pub mod patina_container;
+pub mod patina_view;
+
 pub use patina_bg::PatinaBG;
 pub use patina_titlebar::PatinaTitlebar;
+pub use patina_container::PatinaContainer;
+pub use patina_view::PatinaView;

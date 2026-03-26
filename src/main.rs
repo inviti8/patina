@@ -4,7 +4,7 @@ use dioxus::prelude::*;
 use dioxus::desktop::tao;
 use dioxus::desktop::use_window;
 
-use components::{PatinaBG, PatinaTitlebar};
+use components::{PatinaBG, PatinaTitlebar, PatinaView};
 
 /// Define a components module that contains all shared components for our app.
 mod components;
@@ -59,10 +59,11 @@ fn App() -> Element {
     });
 
     rsx! {
-        // Include CSS styles
         link { rel: "stylesheet", href: MAIN_CSS }
         
         PatinaTitlebar {}
-        PatinaBG {}
+        
+        // Configurable grid view
+        PatinaView { rows: 3, columns: 3 }
     }
 }
