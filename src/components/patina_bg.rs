@@ -1,16 +1,18 @@
 use dioxus::prelude::*;
 
+#[derive(Props, Clone, PartialEq)]
+pub struct PatinaBGProps {
+    pub svg_content: String,
+}
+
 #[component]
-pub fn PatinaBG() -> Element {
-    // Parse SVG as XML and extract key elements
-    let svg_content = include_str!("../../assets/bg.svg");
-    
+pub fn PatinaBG(props: PatinaBGProps) -> Element {
     rsx! {
         div {
             class: "patina-bg",
             div {
                 class: "svg-fill-maintain-aspect",
-                dangerous_inner_html: svg_content
+                dangerous_inner_html: "{props.svg_content}"
             }
         }
     }

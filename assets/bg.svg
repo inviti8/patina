@@ -11,8 +11,8 @@
         </linearGradient>
         <linearGradient id="linearGradient4555">
             <stop offset="0" stop-color="#393e57" stop-opacity="1"/>
-            <stop offset="1" stop-color="#3e435c" stop-opacity="1"/>
             <stop offset="1" stop-color="#454962" stop-opacity="1"/>
+            <stop offset="1" stop-color="#3e435c" stop-opacity="1"/>
         </linearGradient>
         <linearGradient gradientUnits="userSpaceOnUse" id="linearGradient4559" x1="54.9197" x2="55.0188" xlink:href="#linearGradient4555" y1="54.5251" y2="-0.0633297"/>
         <linearGradient gradientUnits="userSpaceOnUse" id="linearGradient5368" x1="52.3533" x2="53.1678" xlink:href="#linearGradient4934" y1="51.3522" y2="33.4507"/>
@@ -28,30 +28,53 @@
             </cc:Work>
         </rdf:RDF>
     </metadata>
-    <g id="Composition_4ac4aaa1451a45daa55f487a5fa54e55" inkscape:groupmode="layer" inkscape:label="Composition">
-        <g id="Layer_442ce5651e6f44899a8f7284b95c5d4e" inkscape:groupmode="layer" inkscape:label="Layer" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
-            <g id="Layer_cd113d4f20e1441293a7f0f6bc045b68" inkscape:groupmode="layer" inkscape:label="bg.svg" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
-                <g id="Group_6b621e5a39214eeb894ec309a1cd4e72" inkscape:label="Layer 1" opacity="0.5" transform="matrix(1, 0, 0, 1, 0, 0)">
-                    <animate attributeName="opacity" begin="0.000000" calcMode="spline" dur="3.000000" keySplines="0 0 1 1; 0.000000 0.000000 1.000000 1.000000; 0.000000 0.000000 1.000000 1.000000" keyTimes="0; 0.111111; 0.194444; 1" repeatCount="0" values="0.5; 0.5; 1; 1"/>
-                    <g display="none" id="Group_48237dc2db104c60968c44d452d75ffe" inkscape:label="base_elem" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
-                        <g display="none" fill="url(#linearGradient5368)" id="Fill_01bbd4f54c2d48f18cfc0270fc1593e0" inkscape:label="elem_base" opacity="1" stroke="#3b3e54" stroke-opacity="1" stroke-width="2.065000057220459" transform="matrix(1, 0, 0, 1, 0, 0)">
-                            <rect height="47.454" ry="10.8137845993042" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="50.4332" x="27.3373" y="34.4753"/>
-                            <rect height="47.454" ry="10.8137845993042" style="stroke:none;" width="50.4332" x="27.3373" y="34.4753"/>
-                        </g>
-                        <g display="none" id="Stroke_3e494cad73e34be5a0d8ac65da31ff44" inkscape:label="elem_outline" opacity="1" stroke="#4f526a" stroke-opacity="1" stroke-width="0.5" transform="matrix(1, 0, 0, 1, 0, 0)">
-                            <rect height="47.454" ry="10.8137845993042" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="50.4332" x="27.3373" y="34.4753"/>
-                        </g>
-                    </g>
-                    <g transform="translate(50 0)">
-                        <g transform="rotate(0)">
-                            <g transform="scale(1 0)">
-                                <g transform="translate(-50 0)">
-                                    <g fill="url(#linearGradient4559)" id="Stroke_99f713b7813a47aba3850d31cb2d7887" inkscape:label="BG" opacity="1" stroke="url(#linearGradient6469)" stroke-width="0.3235499858856201">
-                                        <rect height="54.6295" ry="1.4237680435180664" style="stroke:none;" width="98.711" x="0.58645" y="0.123132"/>
-                                        <rect height="54.6295" ry="1.4237680435180664" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="98.711" x="0.58645" y="0.123132"/>
+    <g id="Composition_fd8536ca97914b68a48bbda25ecbc2c1" inkscape:groupmode="layer" inkscape:label="Composition">
+        <g id="Layer_458c2936b4bd4fdb9bd597270f11a22b" inkscape:groupmode="layer" inkscape:label="Layer" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <g id="Layer_bd065ac7a98248f6889194186e4574d0" inkscape:groupmode="layer" inkscape:label="Layer" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                <g id="Layer_d9146f2725e749fca5bca8170a25bafb" inkscape:groupmode="layer" inkscape:label="Composition" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                    <g id="Layer_2f6b60611d6b42d689da1253afa5c20e" inkscape:groupmode="layer" inkscape:label="Layer" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                        <g id="Layer_bc4102f979d94f2db402a78a60dc5ae5" inkscape:groupmode="layer" inkscape:label="bg.svg" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                            <g id="Group_35a8f37d8c864bfa8000ad4390de77b7" inkscape:label="Layer 1" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                <g display="none" id="Group_8b718edb91b6429a87c04721aaf4b81d" inkscape:label="base_elem" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                    <g display="none" id="Group_ac5c0233b47f4d6fa64b4193e2a20843" inkscape:label="elem_base" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                        <g display="none" id="Stroke_488934cb632941df8aefa43d9fb18fab" inkscape:label="Group" opacity="1" stroke="#3b3e54" stroke-opacity="1" stroke-width="2.065000057220459" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                            <rect height="47.454" ry="10.8137845993042" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="50.4332" x="27.3373" y="34.4753"/>
+                                        </g>
+                                        <g display="none" fill="url(#linearGradient5368)" id="Fill_41db9228690242739be6cab8a57c98f4" inkscape:label="Group" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                            <rect height="47.454" ry="10.8137845993042" style="stroke:none;" width="50.4332" x="27.3373" y="34.4753"/>
+                                        </g>
+                                    </g>
+                                    <g display="none" id="Group_707ed78444424bab96a7d3d8990ee675" inkscape:label="elem_outline" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                        <g display="none" id="Stroke_f452f271fb75416d9335304bb330ff10" inkscape:label="Group" opacity="1" stroke="#4f526a" stroke-opacity="1" stroke-width="0.5" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                            <rect height="47.454" ry="10.8137845993042" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="50.4332" x="27.3373" y="34.4753"/>
+                                        </g>
                                     </g>
                                 </g>
-                                <animateTransform attributeName="transform" begin="0.000000" calcMode="spline" dur="3.000000" keySplines="0 0 1 1; 0.166667 0.333333 0.666667 1.000000; 0.000000 0.000000 1.000000 1.000000" keyTimes="0; 0.033333; 0.105556; 1" repeatCount="0" type="scale" values="1 0; 1 0; 1 1; 1 1"/>
+                                <g id="Group_26079009c9884468b4ebec45141b165b" inkscape:label="Group" opacity="1" transform="matrix(1, 0, 0, 1, 50, 0)">
+                                    <g id="Group_468c0ac11a3741e4966e9b7f405383d4" inkscape:label="Group" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                        <g transform="translate(0 0)">
+                                            <g transform="rotate(0)">
+                                                <g transform="scale(1 0)">
+                                                    <g transform="translate(0 0)">
+                                                        <g id="Group_9a8f4e4060f44270afc641ea2a2d7513" inkscape:label="Group" opacity="1">
+                                                            <g id="Group_e32fc13093f645289b0e8059835b09c7" inkscape:label="Group" opacity="1" transform="matrix(1, 0, 0, 1, -50, 0)">
+                                                                <g id="Group_97c66f977dc542199b4d0ea5949c3839" inkscape:label="BG" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                                                    <g fill="url(#linearGradient4559)" id="Fill_28e044353fb447fb83e5dd8b038c5b87" inkscape:label="Group" opacity="1" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                                                        <rect height="54.6295" ry="1.4237680435180664" style="stroke:none;" width="98.711" x="0.58645" y="0.123132"/>
+                                                                    </g>
+                                                                    <g id="Stroke_5b8453f785494ad58d0b1978cade92bf" inkscape:label="Group" opacity="1" stroke="url(#linearGradient6469)" stroke-width="0.3235499858856201" transform="matrix(1, 0, 0, 1, 0, 0)">
+                                                                        <rect height="54.6295" ry="1.4237680435180664" style="fill:none;stroke-dasharray:none;stroke-linecap:square;stroke-linejoin:bevel;" width="98.711" x="0.58645" y="0.123132"/>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                    <animateTransform attributeName="transform" begin="0.000000" calcMode="spline" dur="3.000000" keySplines="0.000000 0.000000 1.000000 1.000000; 0.166667 0.333333 0.666667 1.000000; 0.000000 0.000000 1.000000 1.000000" keyTimes="0.000000; 0.033333; 0.105556; 1.000000" repeatCount="0" type="scale" values="1 0; 1 0; 1 1; 1 1"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
                             </g>
                         </g>
                     </g>

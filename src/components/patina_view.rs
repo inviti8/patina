@@ -5,6 +5,8 @@ use crate::components::{PatinaBG, PatinaContainer};
 pub struct PatinaViewProps {
     pub rows: u32,
     pub columns: u32,
+    pub bg_svg: String,
+    pub container_svg: String,
 }
 
 #[component]
@@ -13,7 +15,7 @@ pub fn PatinaView(props: PatinaViewProps) -> Element {
         div {
             class: "patina-view",
             // Background layer
-            PatinaBG {}
+            PatinaBG { svg_content: props.bg_svg.clone() }
             
             // Grid overlay
             div {
@@ -25,7 +27,10 @@ pub fn PatinaView(props: PatinaViewProps) -> Element {
                         key: "{row}",
                         // Generate columns for this row
                         for col in 0..props.columns {
-                            PatinaContainer { key: "{row}-{col}" }
+                            PatinaContainer { 
+                                key: "{row}-{col}",
+                                svg_content: props.container_svg.clone()
+                            }
                         }
                     }
                 }

@@ -20,8 +20,9 @@ fn main() {
     // The `launch` function is the main entry point for a dioxus app. It takes a component and renders it with the platform feature
     // you have enabled
     let window = WindowBuilder::new()
-        .with_inner_size(PhysicalSize::new(1200, 800))  // Initial size
+        .with_inner_size(PhysicalSize::new(800, 600))  // Initial size
         .with_min_inner_size(PhysicalSize::new(800, 600))  // Minimum size
+        .with_max_inner_size(PhysicalSize::new(1920, 1080))  // Maximum size
         .with_resizable(true)
         .with_decorations(false)  // Frameless - no title bar, borders
         .with_transparent(true);  // Optional: transparent background
@@ -66,6 +67,11 @@ fn App() -> Element {
         
         PatinaTitlebar {}
         // Configurable grid view
-        PatinaView { rows: 1, columns: 1 }
+        PatinaView { 
+            rows: 1, 
+            columns: 1,
+            bg_svg: include_str!("../assets/bg.svg").to_string(),
+            container_svg: include_str!("../assets/container.svg").to_string()
+        }
     }
 }
