@@ -58,6 +58,27 @@ fn App() -> Element {
                     e.preventDefault();
                 }
             });
+            
+            // Fix SVG animation disappearing on window resize
+            function restartSVGAnimations() {
+                const animations = document.querySelectorAll('animate, animateTransform, animateMotion');
+                animations.forEach(anim => {
+                    try {
+                        anim.beginElement();  // Restart animation
+                    } catch (e) {
+                        console.log('Animation restart failed:', e);
+                    }
+                });
+            }
+            
+            // Listen for window resize events
+            window.addEventListener('resize', function() {
+                setTimeout(restartSVGAnimations, 100);  // Delay to allow resize to complete
+            });
+            
+            // Also listen for maximize/restore events
+            window.addEventListener('maximize', restartSVGAnimations);
+            window.addEventListener('restore', restartSVGAnimations);
         "#);
         eval.recv::<()>().await
     });
